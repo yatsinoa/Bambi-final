@@ -1,0 +1,37 @@
+@media (min-width: 480px) and (max-width: 659px) {
+    .container {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .our-clients__logo {
+        
+        &:nth-child(odd) {
+            margin-right: 30px;
+        }
+    }
+
+
+}
+@media (min-width: 660px) {
+    .container {
+        margin: 0 auto;
+        width: 660px;
+        padding: 10px;
+    }
+    
+  
+    
+}
+
+@media (min-width: 1200px)  {
+    .container {
+        width: 1200px;
+        padding: 10px;
+    }
+
+}
+    
+
+
+
+    
