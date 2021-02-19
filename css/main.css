@@ -734,7 +734,7 @@ img {
 
 .footer-btn-container {
   margin: 0 auto;
-  width: 100%;
+  max-width: 100%;
   margin-top: 20px;
 }
 
@@ -1178,6 +1178,7 @@ img {
   }
   .footer-send-email-form {
     margin: 0 auto;
+    max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1216,9 +1217,7 @@ img {
   }
   .footer-btn-container {
     margin: 0;
-  }
-  .main-btn__footer {
-    margin: 0 auto;
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

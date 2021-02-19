@@ -378,6 +378,7 @@
     }
     .footer-send-email-form {
         margin: 0 auto;
+        max-width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -400,10 +401,10 @@
     }
     .footer-btn-container {
         margin: 0;
+        max-width: 100%;
+
     }
-    .main-btn__footer {
-        margin: 0 auto;
-    }
+    
     
 
 
