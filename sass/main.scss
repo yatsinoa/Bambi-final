@@ -42,6 +42,10 @@ img {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+.site-logo__svg {
+    width: 134px;
+    height: 28px;
+}
 .menu-mobile {
     fill:#212121;
     transition: fill 0.5s;
@@ -92,7 +96,6 @@ img {
     text-align: center;
     cursor: pointer;
         &__purposes {
-
             margin-top: 30px;
         }
     
@@ -549,6 +552,9 @@ img {
     height: 20px;
     fill: #FFFFFF;
 }
+.footer-send-email-form {
+    margin: 0 auto;
+}
 .footer-send-email {
     display: flex;
     flex-direction: column;
@@ -586,7 +592,12 @@ img {
 .footer-btn-container {
     margin: 0 auto;
     margin-top: 20px;
+    
+}
+.main-btn__footer {
+    margin: 0 auto;
     position: relative;
+
 }
 .footer-btn__icon {
     width: 20px;
@@ -594,6 +605,7 @@ img {
     position: absolute;
     top: 50%;
     right: 10%;
+    z-index: 1;
     transform: translateY(-50%);
     fill:  #FFFFFF;
 }

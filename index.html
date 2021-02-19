@@ -18,7 +18,7 @@
 
         <header class="header-main container">
             <div class="site-logo">
-                <svg width="134px" height="28px">
+                <svg class="site-logo__svg">
                     <use xlink:href="img/symbol-defs.svg#icon-WebStudio"></use>
                 </svg>
             </div>
@@ -439,14 +439,17 @@
                     </section>
                     <section class="footer-send-email">
                         <p class="footer-send-email__title">Подпишитесь на рассылку</p>
-                        <input class="footer-send-email__email" type="email" placeholder="E-mail" name="user_email"
-                            required>
-                        <div class="footer-btn-container">
-                            <button class="main-btn main-btn__footer" type="submit">Подписаться</button>
-                            <svg class="footer-btn__icon">
-                                <use href="img/symbol-defs.svg#icon-send"></use>
-                            </svg>
+                        <div class="footer-send-email-form">
+                            <input class="footer-send-email__email" type="email" placeholder="E-mail" name="user_email"
+                                required>
+                            <div class="footer-btn-container">
+                                <button class="main-btn main-btn__footer" type="submit">Подписаться
+                                    <svg class="footer-btn__icon">
+                                        <use href="img/symbol-defs.svg#icon-send"></use>
+                                    </svg>
+                                </button>
 
+                            </div>
                         </div>
                     </section>
 

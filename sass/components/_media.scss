@@ -48,6 +48,7 @@
         display: flex;
     }
     .nav-list {
+        margin: 0 auto;
         list-style: none;
         display: flex;
         padding: 0;
@@ -117,6 +118,10 @@
             color: #757575;
         }
     }
+    .main-purposes__header {
+        margin: 0 auto;
+        width: 360px;
+    }
     .services-list {
         display: flex;
         flex-wrap: wrap;
@@ -155,6 +160,9 @@
         justify-content: space-between;
         align-items: flex-start;
     }
+    .footer-send-email__email {
+        width: 450px;
+    }
     .footer-contacts-social__title {
         margin-top: 0px;
     }
@@ -169,6 +177,140 @@
     .container {
         width: 1200px;
     }
+    .header-main {
+        padding-top: 24px;
+        padding-bottom: 19px;
+    }
+    .site-logo__svg {
+        width: 145px;
+        height: 31px;
+    }
+    .header-contacts-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    .header-contacts {
+        &:first-child {
+            margin-bottom: 0px;
+            margin-right: 30px;
+            margin-left: 305px;
+        }
+    }
+    .nav-list-item {
+        margin-bottom: -25px;
+        padding-bottom: 25px;
+    }
+    .background-cover {
+        background: url(../img/header_img_desktop.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .main-purposes__header {
+        font-size: 4.4rem;
+        line-height: 6rem;
+        letter-spacing: 0.06em;
+        width: 696px;
+    }
+    .service-card {
+        width: 23%;
+        margin-top: 30px;
+        margin-right: 30px;
+        &:first-child {
+            margin-top: 30px;
+        }
+        &:nth-child(even) {
+            margin-right: 30px;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .our-team-header {
+        font-size: 3.6rem;
+        line-height: 4.2rem;
+    }
+    .team-card {
+        width: 23%;
+    }
+    .our-clients__logo {
+        width: 15%;
+        height: 90px;
+        
+    }
+    .footer-contacts-social-container {
+        flex-direction: row;
+    }
+    .footer-main-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+    .footer-contacts-basic {
+        margin-right: 70px;
+    }
+    .footer-contacts {
+        &__logo {
+            margin-bottom: 20px;
+            font-size: 2.6rem;
+        }
+        &__address {
+            margin-top: 0;
+        }
+        &__logo, &__address, &__email, &__tel {
+            text-align: left;
+        }
+        
+    }
+    .footer-contacts-social {
+        &-container {
+            padding-top: 10px;
+
+        }
+        
+        &__title {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+       
+    }
+    .footer-send-email-form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-send-email {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 10px;
+        &__title {
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        &__email {
+            margin: 0;
+            width: 358px;
+        }
+    }
+    .footer-btn-container {
+        margin: 0;
+    }
+    .main-btn__footer {
+        margin: 0 auto;
+    }
+    
+
+
+
+
 
 }
     
