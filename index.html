@@ -29,32 +29,32 @@
                     </svg>
                 </div>
                 <nav class="nav-main">
-                    <ul class="nav-main__list">
-                        <li class="nav-main__item">
-                            <a class="nav-main__link" href="#">Студия</a>
+                    <ul class="nav-list">
+                        <li class="nav-list-item">
+                            <a class="nav-list-item__link" href="#">Студия</a>
                         </li>
-                        <li class="nav-main__item">
-                            <a class="nav-main__link" href="#">Портфолио</a>
+                        <li class="nav-list-item">
+                            <a class="nav-list-item__link" href="#">Портфолио</a>
                         </li>
-                        <li class="nav-main__item">
-                            <a class="nav-main__link" href="#">Контакты</a>
+                        <li class="nav-list-item">
+                            <a class="nav-list-item__link" href="#">Контакты</a>
                         </li>
                     </ul>
                 </nav>
-
-                <div class="header-contacts-container">
-                    <div class="header-contacts header-contacts__email">
-                        <svg width="24px" height="16px">
-                            <use xlink:href="img/symbol-defs.svg#icon-envelope"></use>
-                        </svg>
-                        <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-                    </div>
-                    <div class="header-contacts header-contacts__phone">
-                        <svg width="24px" height="16px">
-                            <use xlink:href="img/symbol-defs.svg#icon-mobile"></use>
-                        </svg>
-                        <p>+38 096 111 11 11</p>
-                    </div>
+            </div>
+            <div class="header-contacts-container">
+                <div class="header-contacts">
+                    <svg class="header-contacts__svg">
+                        <use xlink:href="img/symbol-defs.svg#icon-envelope"></use>
+                    </svg>
+                    <p class="header-contacts__name"><a class="header-contacts__name--mail"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+                </div>
+                <div class="header-contacts">
+                    <svg class="header-contacts__svg">
+                        <use xlink:href="img/symbol-defs.svg#icon-mobile"></use>
+                    </svg>
+                    <p class="header-contacts__name">+38 096 111 11 11</p>
                 </div>
             </div>
         </header>
@@ -142,8 +142,8 @@
                 <section class="services container">
                     <ul class="services-list">
                         <li class="service-card">
-                            <div class="service-card__icon">
-                                <svg class="service-card__svg" width="65px" height="70px">
+                            <div class="service-card-icon">
+                                <svg class="service-card__svg">
                                     <use xlink:href="img/symbol-defs.svg#icon-sat"></use>
                                 </svg>
                             </div>
@@ -154,8 +154,8 @@
                             </div>
                         </li>
                         <li class="service-card">
-                            <div class="service-card__icon">
-                                <svg class="service-card__svg" width="66px" height="70px">
+                            <div class="service-card-icon">
+                                <svg class="service-card__svg">
                                     <use xlink:href="img/symbol-defs.svg#icon-clock"></use>
                                 </svg>
                             </div>
@@ -166,8 +166,8 @@
                             </div>
                         </li>
                         <li class="service-card">
-                            <div class="service-card__icon">
-                                <svg class="service-card__svg" width="70px" height="54px">
+                            <div class="service-card-icon">
+                                <svg class="service-card__svg">
                                     <use xlink:href="img/symbol-defs.svg#icon-laptop"></use>
                                 </svg>
                             </div>
@@ -178,8 +178,8 @@
                             </div>
                         </li>
                         <li class="service-card">
-                            <div class="service-card__icon">
-                                <svg class="service-card__svg" width="70px" height="70px">
+                            <div class="service-card-icon">
+                                <svg class="service-card__svg">
                                     <use xlink:href="img/symbol-defs.svg#icon-astronaut"></use>
                                 </svg>
                             </div>
@@ -393,48 +393,54 @@
             <footer class="footer-main">
                 <div class="footer-main-wrapper container">
                     <section class="footer-contacts">
-                        <p class="footer-contacts__logo">Web<span class="footer-contacts__logo--colored">Studio</span>
-                        </p>
-                        <p class="footer-contacts__address">г. Киев, пр-т Леси Украинки, 26</p>
-                        <p class="footer-contacts__email">info@example.com</p>
-                        <p class="footer-contacts__tel">+38 099 111 11 11</p>
-                        <h3 class="footer-contacts-social__title">присоединяйтесь</h3>
-                        <div class="footer-contacts-social">
-                            <div class="footer-contacts-social__icon">
-                                <a href="#">
-                                    <svg class="footer-contacts-social__icon-svg">
-                                        <use href="img/symbol-defs.svg#icon-instagram"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="footer-contacts-social__icon">
-                                <a href="#">
-                                    <svg class="footer-contacts-social__icon-svg">
-                                        <use href="img/symbol-defs.svg#icon-twitter"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="footer-contacts-social__icon">
-                                <a href="#">
-                                    <svg class="footer-contacts-social__icon-svg">
-                                        <use href="img/symbol-defs.svg#icon-facebook"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="footer-contacts-social__icon">
-                                <a href="#">
-                                    <svg class="footer-contacts-social__icon-svg">
-                                        <use href="img/symbol-defs.svg#icon-linkedin"></use>
-                                    </svg>
-                                </a>
-                            </div>
+                        <div class="footer-contacts-basic">
+                            <p class="footer-contacts__logo">Web<span
+                                    class="footer-contacts__logo--colored">Studio</span>
+                            </p>
+                            <p class="footer-contacts__address">г. Киев, пр-т Леси Украинки, 26</p>
+                            <p class="footer-contacts__email">info@example.com</p>
+                            <p class="footer-contacts__tel">+38 099 111 11 11</p>
+                        </div>
+                        <div class="footer-contacts-social-container">
+                            <h3 class="footer-contacts-social__title">присоединяйтесь</h3>
+                            <div class="footer-contacts-social">
 
+                                <div class="footer-contacts-social__icon">
+                                    <a href="#">
+                                        <svg class="footer-contacts-social__icon-svg">
+                                            <use href="img/symbol-defs.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer-contacts-social__icon">
+                                    <a href="#">
+                                        <svg class="footer-contacts-social__icon-svg">
+                                            <use href="img/symbol-defs.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer-contacts-social__icon">
+                                    <a href="#">
+                                        <svg class="footer-contacts-social__icon-svg">
+                                            <use href="img/symbol-defs.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer-contacts-social__icon">
+                                    <a href="#">
+                                        <svg class="footer-contacts-social__icon-svg">
+                                            <use href="img/symbol-defs.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
                         </div>
                     </section>
                     <section class="footer-send-email">
                         <p class="footer-send-email__title">Подпишитесь на рассылку</p>
-                        <input class="footer-send-email__email" type="email" placeholder="E-mail"
-                            name="user_email" required>
+                        <input class="footer-send-email__email" type="email" placeholder="E-mail" name="user_email"
+                            required>
                         <div class="footer-btn-container">
                             <button class="main-btn main-btn__footer" type="submit">Подписаться</button>
                             <svg class="footer-btn__icon">
