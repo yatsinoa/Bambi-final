@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -62,9 +63,9 @@
                 <section class="main-purposes">
                     <h1 class="main-purposes__header">Эффективные решения для вашего бизнеса</h1>
                     <div class="button-container">
-                        <button class="main-btn main-btn__purposes" href="#open_modal_form">Заказать услугу</button>
+                        <button class="main-btn main-btn__purposes" href="#openModalForm">Заказать услугу</button>
                     </div>
-                    <div id="open_modal_form" class="modal-form">
+                    <div id="openModalForm" class="modal-form">
                         <div class="modal-form-dialog">
                             <div class="modal-form-content container">
                                 <div class="modal-form-header">
@@ -81,8 +82,8 @@
                                                         <svg class="personal-data-field__svg">
                                                             <use xlink:href="img/symbol-defs.svg#icon-name"></use>
                                                         </svg>
-                                                        <input class="personal-data-field__input" type="text" placeholder="" autofocus name="user_name"
-                                                            required>
+                                                        <input class="personal-data-field__input" type="text"
+                                                            placeholder="" autofocus name="user_name" required>
                                                     </div>
                                                 </li>
                                                 <li class="personal-data-item">
@@ -91,7 +92,8 @@
                                                         <svg class="personal-data-field__svg">
                                                             <use xlink:href="img/symbol-defs.svg#icon-phone"></use>
                                                         </svg>
-                                                        <input class="personal-data-field__input" type="tel" placeholder="" name="user_tel" required>
+                                                        <input class="personal-data-field__input" type="tel"
+                                                            placeholder="" name="user_tel" required>
                                                     </div>
                                                 </li>
                                                 <li class="personal-data-item">
@@ -100,20 +102,25 @@
                                                         <svg class="personal-data-field__svg">
                                                             <use xlink:href="img/symbol-defs.svg#icon-envelope"></use>
                                                         </svg>
-                                                        <input class="personal-data-field__input" type="email" placeholder="" name="user_email" required>
+                                                        <input class="personal-data-field__input" type="email"
+                                                            placeholder="" name="user_email" required>
                                                     </div>
                                                 </li>
                                                 <li class="personal-data-item">
                                                     <div class="personal-data-field">
                                                         <p class="personal-data__name">Ваш комментарий</p>
-                                                        <textarea class="personal-data-field__textarea" name="user_messege" placeholder="Введите текст" id=""
+                                                        <textarea class="personal-data-field__textarea"
+                                                            name="user_messege" placeholder="Введите текст" id=""
                                                             cols="30" rows="10" style="resize: none"></textarea>
                                                     </div>
                                                 </li>
                                                 <li class="personal-data-item">
-                                                    <label class="personal-data-checkbox"><input class="personal-data-checkbox__input" type="checkbox"
-                                                            value="agree"><span class="label-text">Соглашаюсь с рассылкой и
-                                                        принимаю <a class="personal-data-checkbox__link" href="#">Условия договора</a></span></label>
+                                                    <label class="personal-data-checkbox"><input
+                                                            class="personal-data-checkbox__input" type="checkbox"
+                                                            value="agree"><span class="label-text">Соглашаюсь с
+                                                            рассылкой и
+                                                            принимаю <a class="personal-data-checkbox__link"
+                                                                href="#">Условия договора</a></span></label>
                                                 </li>
 
                                             </ul>
@@ -383,21 +390,65 @@
                     </div>
                 </section>
             </div>
-            <footer class="container">
-                <div class="footer-block">
-                    <div class="footer-copyrights">
-                        <p class="footer-copyrights__reserved">© 2016 MoGo free PSD template by <span
-                                class="footer-copyrights__colortext">Laaqiq</span></p>
+            <footer class="footer-main">
+                <div class="footer-main-wrapper container">
+                    <section class="footer-contacts">
+                        <p class="footer-contacts__logo">Web<span class="footer-contacts__logo--colored">Studio</span>
+                        </p>
+                        <p class="footer-contacts__address">г. Киев, пр-т Леси Украинки, 26</p>
+                        <p class="footer-contacts__email">info@example.com</p>
+                        <p class="footer-contacts__tel">+38 099 111 11 11</p>
+                        <h3 class="footer-contacts-social__title">присоединяйтесь</h3>
+                        <div class="footer-contacts-social">
+                            <div class="footer-contacts-social__icon">
+                                <a href="#">
+                                    <svg class="footer-contacts-social__icon-svg">
+                                        <use href="img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="footer-contacts-social__icon">
+                                <a href="#">
+                                    <svg class="footer-contacts-social__icon-svg">
+                                        <use href="img/symbol-defs.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="footer-contacts-social__icon">
+                                <a href="#">
+                                    <svg class="footer-contacts-social__icon-svg">
+                                        <use href="img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="footer-contacts-social__icon">
+                                <a href="#">
+                                    <svg class="footer-contacts-social__icon-svg">
+                                        <use href="img/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </div>
 
-                    </div>
-                    <section class="contact_us">
-                        <form class="contacting-form" action="get" action="#">
-                            <input class="contacting-form__email" type="email" placeholder="Your e-mail..."
-                                name="user_email" required>
-                            <button class="contacting-form__button" type="submit">Subscribe</button>
-                        </form>
+                        </div>
                     </section>
+                    <section class="footer-send-email">
+                        <p class="footer-send-email__title">Подпишитесь на рассылку</p>
+                        <input class="footer-send-email__email" type="email" placeholder="E-mail"
+                            name="user_email" required>
+                        <div class="footer-btn-container">
+                            <button class="main-btn main-btn__footer" type="submit">Подписаться</button>
+                            <svg class="footer-btn__icon">
+                                <use href="img/symbol-defs.svg#icon-send"></use>
+                            </svg>
+
+                        </div>
+                    </section>
+
+
                 </div>
+
+
+
             </footer>
         </div>
 
