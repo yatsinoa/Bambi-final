@@ -131,6 +131,14 @@
         }
         
     }
+    .modal-form-dialog {
+        margin-top: 206px;
+        margin-bottom: 207px;
+    }
+    .modal-form-content {
+        width: 450px;
+        height: 581px;
+    }
     .main-purposes__header {
         margin: 0 auto;
         width: 360px;
@@ -218,6 +226,9 @@
         margin-bottom: -25px;
         padding-bottom: 25px;
     }
+    .modal-form-content {
+        width: 528px;
+    }
     .background-cover {
         background: url(../img/header_img_desktop.jpg);
         background-size: cover;
@@ -283,12 +294,6 @@
             &:last-child {
                 margin-right: 0;
             }
-            &__img {
-
-
-            } 
-            
-
     }
     .our-mission-name-container {
         background: rgba(47, 48, 58, 0.8);
