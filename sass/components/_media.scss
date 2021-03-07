@@ -167,7 +167,9 @@
     margin-bottom: 30px;
     width: 30%;
     height: 90px;
-    transition: fill 0.6s;
+    &:nth-child(odd) {
+      margin-right: 0;
+    }
   }
   .footer-contacts {
     display: flex;
