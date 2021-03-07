@@ -1,0 +1,34 @@
+.background-cover {
+    background: url(../img/header_img_mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 118px;
+    padding-bottom: 118px;
+}
+
+
+
+.main-purposes {
+    margin: 0 auto;
+    &__header {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.6rem;
+        line-height: 4.2rem;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase; 
+        color: #FFFFFF;
+        margin: 0;
+    }
+}
+.button-container {
+    text-align: center;
+}
+
+.open_modal_window_link {
+    text-decoration: none;
+    color: #FFFFFF;
+}

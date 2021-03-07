@@ -1,0 +1,29 @@
+.header-main-lined {
+  border-bottom: 1px solid #ececec;
+}
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.site-logo__svg {
+  width: 134px;
+  height: 28px;
+}
+.menu-mobile {
+  fill: #212121;
+  transition: fill 0.5s;
+  &:hover {
+    fill: #2196f3;
+    cursor: pointer;
+  }
+}
+.nav-main {
+  display: none;
+}
+.header-contacts-container {
+  display: none;
+}

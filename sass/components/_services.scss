@@ -1,0 +1,63 @@
+
+
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.service-card {
+    margin-top: 30px;
+    &:first-child {
+        margin-top: 60px;
+    }
+
+    &-icon {
+        background: #F5F4FA;
+        border-radius: 4px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+
+    }
+        
+
+
+    &__svg {
+        align-self: center;
+        width: 70px;    
+    }
+    
+    &__name {
+        margin: 0;
+        margin-top: 30px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+
+    }
+
+    &__objectives {
+        margin: 0;
+        margin-top: 10px;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        color: #757575;
+
+    }
+
+}

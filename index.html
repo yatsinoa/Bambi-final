@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final project</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -16,7 +15,8 @@
 <body>
     <div class="wrapper">
 
-        <header class="header-main container">
+        <header class="header-main-lined">
+            <div class="header-main container">
             <div class="site-logo">
                 <svg class="site-logo__svg">
                     <use xlink:href="img/symbol-defs.svg#icon-WebStudio"></use>
@@ -34,7 +34,7 @@
                             <a class="nav-list-item__link" href="#">Студия</a>
                         </li>
                         <li class="nav-list-item">
-                            <a class="nav-list-item__link" href="#">Портфолио</a>
+                            <a class="nav-list-item__link" href="/portfolio.html">Портфолио</a>
                         </li>
                         <li class="nav-list-item">
                             <a class="nav-list-item__link" href="#">Контакты</a>
@@ -57,6 +57,7 @@
                     <p class="header-contacts__name">+38 096 111 11 11</p>
                 </div>
             </div>
+        </div>
         </header>
         <div class="background-cover">
             <div class="background-cover-container container">
@@ -67,7 +68,7 @@
                     </div>
                     <div id="openModalForm" class="modal-form">
                         <div class="modal-form-dialog container">
-                            <div class="modal-form-content">
+                            <div class="modal-form-content container">
                                 <div class="modal-form-header">
                                     <h2 class="modal-form-header__title">Оставьте свои данные, мы вам перезвоним</h2>
                                     <a href="#close-modal" title="close" class="close-modal-form">×</a>
